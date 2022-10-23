@@ -8,7 +8,7 @@ skinparam componentStyle uml1
 
 node "<<Smartphone>>" as smart {
 	node "<<OS Android>>" {
-		component [.apk (Android studio)]
+		component [*.apk (Android studio)]
 	}
 }
 
