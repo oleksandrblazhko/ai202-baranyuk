@@ -1,0 +1,22 @@
+@startuml
+
+title UML-діаграма розгортання ПП
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<Smartphone>>" as smart {
+	node "<<OS Android>>" {
+		component [.apk (Android studio)]
+	}
+}
+
+interface sensor
+
+interface microphone
+
+microphone -- smart
+sensor -- smart
+
+@enduml
