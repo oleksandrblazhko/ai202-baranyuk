@@ -1,0 +1,27 @@
+@startuml
+
+title Example of Relation Schema
+
+hide circle
+
+entity "Artist" as t01 {
+    (PK) email
+    --
+    telephone_number
+    name
+    age
+    favorite_style
+}
+entity "Shop" as t02 {
+    (PK) name
+    --
+    shop_link
+    (FK) customers
+    type
+    mark
+    comments
+}
+
+t01 --{ t02
+
+@enduml
