@@ -1,0 +1,13 @@
+@startuml
+
+title Concept Classes Diagram 
+
+Class Artist
+Class Shop
+Class Post
+
+Artist"1" --> "*" Shop : Evaluate >
+
+Artist"1" --> "*" Post : Publish >
+
+@enduml

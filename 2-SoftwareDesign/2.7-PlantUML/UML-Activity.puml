@@ -1,0 +1,19 @@
+@startuml
+
+title Activity Diagram 
+
+start
+
+:The artist views the post; 
+:The artist liked the post;
+note right: Using User validator
+
+if (Did the post like?) then (yes)
+  :+1 like;
+else (no)
+  :the post was not liked;
+endif
+
+stop
+
+@enduml

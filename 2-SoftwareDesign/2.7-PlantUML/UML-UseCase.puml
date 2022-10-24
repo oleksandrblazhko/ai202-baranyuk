@@ -1,0 +1,19 @@
+@startuml
+
+title Usecase for Information system
+
+left to right direction
+
+actor Artist
+
+rectangle Software {
+
+    usecase (User authorization)
+    usecase (Public videos)
+
+   (Public videos) .> (User authorization) : include
+
+   Artist --> (Public videos)
+}
+
+@enduml
