@@ -1,8 +1,8 @@
 @startsalt
 
 {
-    Mark |"    "
-    Word |"    "
+    Mark (number) |"    "
+    Mark (word) |"    "
     [Cancel] | [Save]
 }
 
