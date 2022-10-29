@@ -1,0 +1,9 @@
+@startsalt
+
+{
+    Mark (number) |"9 "
+    Mark (word) |"неперевершено "
+    [Cancel] | [Save]
+}
+
+@endsalt
