@@ -1,0 +1,9 @@
+@startsalt
+
+{
+    Mark (number) |"    "
+    Mark (word) |"    "
+    [Cancel] | [Save]
+}
+
+@endsalt
