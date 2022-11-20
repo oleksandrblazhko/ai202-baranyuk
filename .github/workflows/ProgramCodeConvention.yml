@@ -1,7 +1,7 @@
 name: Program Code Linter
 on:
   push:
-      branches: main
+      branches: LW11
 
 jobs:
   ProgramCodeLinter:
